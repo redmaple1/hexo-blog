@@ -18,7 +18,7 @@ categories: SpringBoot
 <img src="https://hexo-rxy.oss-cn-beijing.aliyuncs.com/spring-boot/listener/%E7%9B%91%E5%90%AC%E5%99%A8%E6%A8%A1%E5%BC%8F.png" width="100%" height="100%">  
 </div>
 &ensp;&ensp;&ensp;&ensp;当系统运行在某些关键节点的时候，会通过广播器去发布一些事件，而系统中存在着一些监听器，对某些事件感兴趣，去订阅这些事件。当这些事件被发布出去之后，监听器监听到这些事件，会触发一些行为。  
-&ensp;&ensp;&ensp;&ensp;;这就是监听器的简单解释，那么在SpringBoot中监听器是如何实现的呢？接下来我们就来看看吧！
+&ensp;&ensp;&ensp;&ensp;这就是监听器的简单解释，那么在SpringBoot中监听器是如何实现的呢？接下来我们就来看看吧！
 
 ## 二、揭开面纱 深入肌理
 &ensp;&ensp;&ensp;&ensp;在SpringBoot中，系统<font color=#008000 >监听器</font>是 ApplicationListener，可以看到源码的注释，通过实现这个接口来实现监听器。   
